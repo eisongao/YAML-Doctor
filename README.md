@@ -47,20 +47,63 @@ npm run tauri:build
 - Webpack 5 + Babel
 - Tauri (桌面端打包)
 
-## 目录结构
+## 📂 目录结构
 
 ```
 yaml-doctor/
-├── src/
-│   ├── App.jsx        # 应用逻辑
-│   ├── index.jsx      # React 入口
-│   └── index.css      # 样式
-├── package.json       # 项目依赖和脚本
-├── postcss.config.js  # PostCSS 配置
-├── jsconfig.json      # 路径别名
-└── tauri.conf.json    # Tauri 配置
+├── dist/                  # Webpack 打包输出
+├── node_modules/          # 依赖
+├── public/                # 静态资源
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   └── robots.txt
+├── src/                   # React 前端源码
+│   ├── styles/            # 样式文件
+│   ├── App.jsx            # 主应用逻辑
+│   ├── index.css          # 全局样式
+│   └── index.jsx          # React 入口
+├── src-tauri/             # Tauri 桌面端相关 (Rust)
+│   ├── capabilities/
+│   ├── gen/
+│   ├── icons/
+│   ├── src/
+│   └── target/
+│       ├── build.rs
+│       ├── Cargo.lock
+│       ├── Cargo.toml
+│       └── tauri.conf.json
+├── .gitignore
+├── .babelrc
+├── components.json
+├── jsconfig.json
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── webpack.config.js
+└── README.md
 ```
 
 ## License
 
-MIT
+Copyright (c) 2025 Crazyus.net
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.  
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE.
