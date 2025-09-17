@@ -23,7 +23,7 @@ npm start
 访问 [http://localhost:5173](http://localhost:5173) 使用。
 
 
-## Screenshots
+## 截图
 
 ![Demo Screenshots](yaml_demo.png)
 
