@@ -25,7 +25,7 @@ npm start
 
 ## Screenshots
 
-![Demo Screenshots](yaml demo.png)
+![Demo Screenshots](yaml_demo.png)
 
 ### 桌面应用 (Tauri)
 ```bash
