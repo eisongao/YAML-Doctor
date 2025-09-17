@@ -22,6 +22,11 @@ npm start
 ```
 访问 [http://localhost:5173](http://localhost:5173) 使用。
 
+
+## Screenshots
+
+![Demo Screenshots](yaml demo.png)
+
 ### 桌面应用 (Tauri)
 ```bash
 npm install
