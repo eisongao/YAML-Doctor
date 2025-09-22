@@ -25,7 +25,7 @@ npm start
 
 ## 截图
 
-![Demo Screenshots](yaml_demo.png)
+![Demo Screenshots]([yaml_demo.png](https://github.com/eisongao/YAML-Doctor/blob/main/yaml_demo.png?raw=true))
 
 ### 桌面应用 (Tauri)
 ```bash
